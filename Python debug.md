@@ -25,7 +25,7 @@
 
 
 **何为 *content root***  
-在 Intellij 全家桶中 *content* 代表你正在使用的文件（项目文件）的集合，这些文件通常是以不同的文件夹层级来组织的，最上层的文件夹则被称为 *content root* 。通常使用 ![content root](https://www.jetbrains.com/help/img/idea/2020.2/icons.nodes.folder.png) 图标表示。在一个项目中默认至少有一个 *content root* 文件夹，即项目的根目录。  
+在 Jetbrains 全家桶中 *content* 代表你正在使用的文件（项目文件）的集合，这些文件通常是以不同的文件夹层级来组织的，最上层的文件夹则被称为 *content root* 。通常使用 ![content root](https://www.jetbrains.com/help/img/idea/2020.2/icons.nodes.folder.png) 图标表示。在一个项目中默认至少有一个 *content root* 文件夹，即项目的根目录。  
 当然，一个项目中也可以有多个 *content root* ，例如我们可以指定一个存储所有 icon 文件的目录作为项目额外的 *content root* 。  
 
 *content root* 中的文件会被建立索引，这些文件可以很方便地被我们搜索，IDE 也会去尝试解析这些文件，建立这些文件和模块之间的联系，并将这些文件的信息用于代码补全功能。*content root* 又可以细分为下面几类：
