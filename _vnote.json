@@ -43,6 +43,9 @@
         }
     ],
     "sub_directories": [
+        {
+            "name": "招聘"
+        }
     ],
     "version": "1"
 }
